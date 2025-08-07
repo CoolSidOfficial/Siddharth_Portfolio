@@ -24,46 +24,46 @@ const Skills = () => {
       paris: 57,
       newYork: 86,
       seoul: 100,
-      month: 'HTML',
+      month: 'MYSQL',
     },
     {
       london: 50,
       paris: 52,
       newYork: 78,
       seoul: 90,
-      month: 'CSS',
+      month: 'PYTHON',
     },{
       london: 50,
       paris: 52,
       newYork: 78,
       seoul: 80,
-      month: 'SCRIPT',
+      month: 'MS EXCEL',
       
     },{
       london: 50,
       paris: 52,
       newYork: 78,
       seoul: 70,
-      month: 'REACT',
+      month: 'PANDAS',
       
     },{
       london: 50,
       paris: 52,
       newYork: 78,
       seoul: 20,
-      month: 'TS',
+      month: 'SK-LEARN',
     },{
       london: 50,
       paris: 52,
       newYork: 78,
       seoul: 25,
-      month: 'Mongo',
+      month: 'POWER-BI',
     },{
       london: 50,
       paris: 52,
       newYork: 78,
       seoul: 40,
-      month: 'Expres',
+      month: 'MATPLOTLIB',
     }
   ]
   const chartSetting = {
@@ -72,8 +72,9 @@ const Skills = () => {
         label: 'Skills',
       },
     ],
-      width:screenw-150,
+      width:screenw-180,
       height:600,
+       margin: { top: 40, bottom: 60, left: 80, right: 80 },
   };
     const valueFormatter = (value: number) => `${value}%`;
   return (

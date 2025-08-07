@@ -5,8 +5,6 @@ interface eb{
    title:String,
    content:String,
    git:string,
-   islive:boolean,
-   link:string,
    img:string
 }
 const Card:React.FC<eb> = (expe) => {

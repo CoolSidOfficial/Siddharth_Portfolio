@@ -6,7 +6,7 @@ const Letstalk = () => {
        <div id='contact' className='w-11/12 flex flex-col items-center mt-10'>
             <p data-aos="zoom-in" className='text-5xl font-bold'>Let's Talk</p>
             <div  data-aos="fade-up" className='flex mt-14 gap-10'>
-              <a href="https://api.whatsapp.com/send/?phone=9302988556&text&type=phone_number&app_absent=0">
+              <a href="https://api.whatsapp.com/send/?phone=6268792226&text&type=phone_number&app_absent=0">
                <span className='flex flex-col items-center'>
                 <div className='hover:scale-125 transition duration-1000'>
                 {mediaicons.whatsapp}
