@@ -36,34 +36,34 @@ const Skills = () => {
       london: 50,
       paris: 52,
       newYork: 78,
-      seoul: 80,
+      seoul: 90,
       month: 'MS EXCEL',
       
     },{
       london: 50,
       paris: 52,
       newYork: 78,
-      seoul: 70,
+      seoul: 80,
       month: 'PANDAS',
       
     },{
       london: 50,
       paris: 52,
       newYork: 78,
-      seoul: 20,
+      seoul: 60,
       month: 'SK-LEARN',
     },{
       london: 50,
       paris: 52,
       newYork: 78,
-      seoul: 25,
+      seoul: 70,
       month: 'POWER-BI',
     },{
       london: 50,
       paris: 52,
       newYork: 78,
-      seoul: 40,
-      month: 'MATPLOTLIB',
+      seoul: 70,
+      month: 'STATISTICS',
     }
   ]
   const chartSetting = {

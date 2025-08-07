@@ -10,8 +10,8 @@ interface eb{
 const Card:React.FC<eb> = (expe) => {
   return (
     <div data-aos="zoom-in-up" className="max-w-sm rounded overflow-hidden shadow-2xl h-hmax flex flex-col justify-between">
-      <div className="w-full h-48">
-    <img width="100%" height="100%" src={expe.img} alt="Sunset in the mountains"/>
+      <div className="w-full h-60">
+    <img width="70%" height="60%" src={expe.img} alt="Sunset in the mountains"/>
      </div>
     <div className="px-6  flex flex-col  h-56">
     <div className="font-bold text-xl mb-2">{expe.title}</div>

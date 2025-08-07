@@ -31,7 +31,7 @@ const Letstalk = () => {
                 </span>
                 </a>
             </div>
-            <p className=' font-medium mt-6 text-lg '>Made by Siddharth Jain </p>
+            <p className=' font-medium mt-6 text-lg '> </p>
        </div>
     </section>
   )
