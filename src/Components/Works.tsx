@@ -41,6 +41,48 @@ const Works = () => {
     islive:true,
     link:"https://vision-portfolio-gamma.vercel.app/",
     img:img2
+  },{
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
+  },{
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
+  },{
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
+  },{
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
+  },{
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
+  },{
+    title:"Portfolio",
+    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
+    git:"https://github.com/siddak18/Vision-portfolio",
+    islive:true,
+    link:"https://vision-portfolio-gamma.vercel.app/",
+    img:img2
   },
    ]
   return (

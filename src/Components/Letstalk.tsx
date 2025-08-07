@@ -14,7 +14,7 @@ const Letstalk = () => {
                 <p className='text-white'>Whatsapp</p>
                 </span>
                 </a>
-                <a href="https://www.instagram.com/siddakrajpal/">
+                <a href="https://www.instagram.com/wakee_up_siddd/">
                 <span className='flex flex-col items-center '>
                 <div className='hover:scale-125 transition duration-1000'>
                 {mediaicons.instaicon}
@@ -22,7 +22,7 @@ const Letstalk = () => {
                 <p className='text-white'>Instagram</p>
                 </span>
                 </a>
-                <a href="https://www.linkedin.com/in/siddak-rajpal-21b32b233/">
+                <a href="https://in.linkedin.com/in/siddharth-jain-979a35253/">
                 <span className='flex flex-col items-center '>
                 <div className='hover:scale-125 transition duration-1000'>
                 {mediaicons.linkdinicon}
@@ -31,7 +31,7 @@ const Letstalk = () => {
                 </span>
                 </a>
             </div>
-            <p className=' font-medium mt-6 text-lg '>Made by siddak rajpal </p>
+            <p className=' font-medium mt-6 text-lg '>Made by Siddharth Jain </p>
        </div>
     </section>
   )

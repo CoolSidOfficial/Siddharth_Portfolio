@@ -6,15 +6,15 @@ import img from '../Assets/2150797600.png'
 
 const Home = () => {
   const data = {
-    greet: "Hello, I am Siddak Rajpal",
-    designations: ["", "Technical Executive Vision Cse", "Web Developer at Ecell Manit"],
+    greet: "Hello, I am Siddharth Jain",
+    designations: ["", "Data Analyst | Data Scientist"],
     clginfo:"I'm an undergraduate student at NIT Bhopal.",
     links:{
-      github:"https://github.com/siddak18",
-      insta:"https://www.instagram.com/siddakrajpal/",
-      linkedin:"https://www.linkedin.com/in/siddakrajpal",
+      github:"https://github.com/siddharthofficial",
+      insta:"https://www.instagram.com/wakee_up_siddd/",
+      linkedin:"https://in.linkedin.com/in/siddharth-jain-979a35253",
       facebook:"https://www.instagram.com/siddakrajpal/",
-      twitter:"https://leetcode.com/siddakrajpal/"
+      leetcode:"https://leetcode.com/Siddharth_Jain_2003/"
     }
   };
   
@@ -66,7 +66,7 @@ const Home = () => {
               <li className="hover:scale-125 transition duration-1000"><a href={data.links.github}>{mediaicons.github}</a></li>
               <li className="hover:scale-125 transition duration-1000"><a href={data.links.insta}>{mediaicons.instaicon}</a></li>
               <li className="hover:scale-125 transition duration-1000"><a href={data.links.linkedin}>{mediaicons.linkdinicon}</a></li>
-              <li className="hover:scale-125 transition duration-1000"><a href={data.links.twitter}>{mediaicons.twittericon}</a></li>
+              <li className="hover:scale-125 transition duration-1000"><a href={data.links.leetcode}>{mediaicons.twittericon}</a></li>
             </ul>
            </div>
         </div>

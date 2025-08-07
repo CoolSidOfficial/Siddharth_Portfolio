@@ -8,7 +8,7 @@ export const Navobj={
       {name:"CONTACT",link:"#contact"},
     ],
     navbutton:{
-      name:"Hire me",link:"https://www.linkedin.com/in/siddak-rajpal-21b32b233/"
+      name:"Hire me",link:"https://in.linkedin.com/in/siddharth-jain-979a35253"
     }
   };
 
