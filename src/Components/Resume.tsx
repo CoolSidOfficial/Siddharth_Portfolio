@@ -6,15 +6,15 @@ const Resume = () => {
     title:"Eduction",
     role:"B.Tech",
     organization:"National Institute of Technology, Bhopal",
-    duration:"Year 2022- Year 2026",
-    description:"During my internship at Dhanaay, I gained valuable experience in frontend development. I learned extensively about Tailwind CSS and was tasked with enhancing their frontend UI. Additionally, I worked with data visualization libraries, including Tremor X Charts and Chart.js."
+    duration:"2022 - 2026 (CGPA: 8.05 till 6th sem)",
+    description:"As a Data Scientist and Analyst, I possess strong skills in data wrangling,statistical analysis,and machine learning to uncover insights and drive data-driven decisions.I am proficient in tools like Python, SQL, Excel and Power BI."
   },
   {
     title:"Eduction",
     role:"12th",
     organization:"Model Higher Secondary School, Bhopal",
-    duration:"Year 2022 - Year 2026",
-    description:"As an undergraduate student, I have a good understanding of data science technologies such as Excel, SQL, Python,Pandas,Scikit-Learn, and Matplotlib."
+    duration:"2021 - 2022 (90.2 %)",
+    description:"In 12th class, i studied the science stream with a focus on mathematics and physics, developing a strong analytical foundation. I also actively participated in academic projects and competitive exams,which helped sharpen my problem solving and reasoning skills."
   } 
 ]
   return (

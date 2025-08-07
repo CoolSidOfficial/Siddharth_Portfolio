@@ -6,80 +6,45 @@ import img2 from "../Assets/Screenshot 2023-12-24 211750.png"
 const Works = () => {
   const expens=[
     {
-      title:"Podcast",
-    content:"Built on the Next.js framework and utilizing Material-UI for a polished UI, this project integrates seamlessly with Firebase for backend services. Its core functionality enables users to create podcasts that are converted into text-to-speech using Amazon Polly. The application features intuitive podcast creation with dynamic audio generation capabilities, ensuring a user-friendly experience.",
-    git:"https://github.com/siddak18/podcast",
+      title:"Customer Churn Analysis",
+    content:"Built a classification pipeline on the Telco Customer Churn data to predict churn. Tried 7 supervised classification models and calculated accuracy, precision,recall and F1 score for each of them. Also performed data preprocessing, one hot encoding, feature scaling, upsampling and hyperparameter tuning.",
+    git:"https://github.com/siddharthofficial/Customer-Churn-Analysis-",
     islive:true,
     link:"https://podcast-bv47-kb7xi88j0-siddak18s-projects.vercel.app/",
     img:"https://drive.google.com/file/d/1iWBIZtutqTmV1jCt0Y13GtrtY5Xvsx3b/view?usp=sharing"
     },
     {
-    title:"Expense Tracker",
-    content:"The tech stack I used to create the expense tracker includes React and Redux for the frontend. On the backend, I utilized Express and Node.js, and for the database, I employed MongoDB. The application follows a CRUD (Create, Read, Update, Delete) approach, providing functionality to manage and track finances.",
-    git:"https://github.com/siddak18/Expense",
+    title:"A/B Testing - Banner CTR Analysis",
+    content:"Conducted an A/B test on a dataset to evaluate if Product A's banner had a higher Click Through Rate (CTR) than Product B's. Mathematically calculated all parameters : CTR, standard error, test statistic, p-value with 95% confidence interval using 2 sample Z test.",
+    git:"https://github.com/siddharthofficial/A-B-Testing-Case-Study-",
     islive:true,
     link:"https://expenses12.netlify.app",
     img:"https://siddakrajpal.netlify.app/project1.png"
   },{
-    title:"Todo List",
-    content:"It is a CRUD-based web app where Redux is employed for state management. The provided features allow users to create, update, delete, and read todos. Additionally, there is a toggle functionality for todos. For the frontend, React is utilized, and MongoDB Atlas serves as the database",
-    git:"https://github.com/siddak18/TodoList",
+    title:"Customer Segmentation using K-Means Clustering",
+    content:"Applied K-Means Clustering on mall customer data to segment customers based on Annual Income and Spending Score. Selected optimal no. of clusters using Elbow method, minimizing inertia. Identified 5 different customer groups including loyal premium buyers, potential high value clients and budget shoppers.",
+    git:"https://github.com/siddharthofficial/Customer--Segmentation-KMeans",
     islive:false,
     link:"#",
     img:"https://siddakrajpal.netlify.app/todo.png"
   },{
-    title:"Uthaan Foundation",
-    content:"It is a frontend-only website built using HTML, CSS, and JavaScript. The website is developed for an NGO named Uthaan Foundation, featuring five pages that display data in a structured manner. Additionally, Swiper.js is employed to enhance user experience through carousels.",
-    git:"https://github.com/siddak18/saxena",
+    title:"Blinkit Sales And Outlet Analysis",
+    content:"Analysed sales metrics from Blinkit's retail dataset to uncover trends across outlet types, item categories and locations. Built a dynamic Power BI dashboard with filters, KPI cards, pie charts,and trend lines to highlight key item types and top performing cities. Performed EDA in Python including null handling and feature engineering.",
+    git:"https://github.com/siddharthofficial/Blinkit-Data-Analyst-Project-Using-PowerBi-And-Python",
     islive:true,
     link:"http://www.uthaanfoundation.com/",
     img:img
   },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
+    title:"Hospital ER Dashboard",
+    content:"Designed an interactive dashboard to analyze patient records across 19 months of emergency room activity. Tracked key metrics like average wait time, satisfaction score, and department level activity. Applied DAX measures to calculate KPIs",
+    git:"https://github.com/siddharthofficial/Hospital-Emergency-Room-Dashboard-Power-BI",
     islive:true,
     link:"https://vision-portfolio-gamma.vercel.app/",
     img:img2
   },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
-    islive:true,
-    link:"https://vision-portfolio-gamma.vercel.app/",
-    img:img2
-  },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
-    islive:true,
-    link:"https://vision-portfolio-gamma.vercel.app/",
-    img:img2
-  },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
-    islive:true,
-    link:"https://vision-portfolio-gamma.vercel.app/",
-    img:img2
-  },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
-    islive:true,
-    link:"https://vision-portfolio-gamma.vercel.app/",
-    img:img2
-  },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
-    islive:true,
-    link:"https://vision-portfolio-gamma.vercel.app/",
-    img:img2
-  },{
-    title:"Portfolio",
-    content:"The tech stack employed consists of Typescript and Tailwind CSS. To enhance the user experience and add attractiveness to the website, I have incorporated AOS (Animation on Scroll) along with Hover.css for additional interactivity",
-    git:"https://github.com/siddak18/Vision-portfolio",
+    title:"Ecommerce Customer Spend Forecasting",
+    content:"Built a linear regression model to forecast yearly customer spend using behavioral features. Performed EDA and identified mobile app engagement and membership length as key revenue drivers. Delivered actionable insights to improve mobile UX and customer retention strategy.",
+    git:"https://github.com/siddharthofficial/Ecommerce-Customer-Spend-Forecasting-Model",
     islive:true,
     link:"https://vision-portfolio-gamma.vercel.app/",
     img:img2

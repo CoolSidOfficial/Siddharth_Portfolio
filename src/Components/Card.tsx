@@ -23,7 +23,6 @@ const Card:React.FC<eb> = (expe) => {
     </div>
     <div className="px-6 pt-4 pb-2 w-full flex justify-between">
     <a href={expe.git}><span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Code link</span></a>
-    <a href={expe.islive?expe.link:"#"}><span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{expe.islive?"Live preview":"will be live"}</span></a>
     </div>
     </div>
   )
